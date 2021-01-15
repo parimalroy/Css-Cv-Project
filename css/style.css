@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFE793;
+    font-family:'Roboto', sans-serif;
+    
+}
+.container{
+    width: 800px;
+    background-color: #363636;
+    margin: 0 auto;
+    padding: 5px;
+}
+h1,h2,h3,h4,h5,h6{
+    color:#14A05A;
+}
+.clear{
+    clear:both;
+}
+
+.hr-line{
+    border: 2px solid #14A05A;
+    margin-top: 20px;
+    border-bottom: none;
+}
+/*--------------------
+header start
+------------------*/
+header{
+
+}
+.profile-image{
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: solid 1px white;
+    border-radius: 50px;
+}
+
+.profile-bio{
+    float: left;
+    padding: 15px 20px;
+
+}
+.profile-info{
+    float: right;
+    padding: 15px;
+
+
+}
+
+.profile-info a{
+    text-decoration: none;
+    color: #14A05A;
+
+}
+
+.profile-info a:hover{
+    text-decoration: underline;
+    font-style: italic;
+    color: tomato;
+
+}
+
+.edu-right-two,.edu-right-one, .left-div, .right-div, h5{
+    margin-bottom: 5px;
+}
+
+/* -------------------------
+section area
+---------------------------*/
+.section{
+    margin-top: 20px;
+}
+.content{
+
+}
+.left-div{
+    width: 30%;
+    text-align: justify;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    text-align: justify;
+    float: left;
+}
+
+/*--------------------------
+Education start
+---------------------------*/
+.edu-right-one{
+    width: 35%;
+    float: left;
+}
+
+.edu-right-two{
+    width: 35%;
+    float: left;
+}
+
+/*---------------------
+footer start
+---------------------*/
+.cv-footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #1B1C1F;
+}
+.cv-footer a{
+    text-decoration: none;
+    color: #14A05A;
+    padding: 5px;
+
+}
+
+.cv-footer a:hover{
+    text-decoration: none;
+    color: tomato;
+    font-style: italic;
+    padding: 5px;
+
+}
+
+.cv-footer p{
+    font-size: 10px;
+    padding: 5px;
+    color: wheat;
+
+}
